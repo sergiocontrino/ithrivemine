@@ -3,7 +3,10 @@
   <property name="common.os.prefix" value="common"/>
   <sources>
 
-
+    <source name="nhs" type="nhs" >
+      <property name="src.data.dir" location="/Users/sergio/data/nhs" />
+      <property name="src.data.dir.includes" value="campet.csv" />
+    </source>
 
   </sources>
 

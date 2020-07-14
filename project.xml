@@ -4,8 +4,8 @@
   <sources>
 
     <source name="nhs" type="nhs" >
-      <property name="src.data.dir" location="/Users/sergio/data/nhs" />
-      <property name="src.data.dir.includes" value="campet.csv" />
+      <property name="src.data.dir" location="/micklem/data/storm/ucl/nhs" />
+      <property name="src.data.dir.includes" value="*.csv" />
     </source>
 
   </sources>

@@ -18,12 +18,11 @@
     <property name="src.data.dir.includes" value="*.csv" />
   </source>
 
-<!-- TODO
   <source name="her" type="por" >
     <property name="src.data.dir" location="/micklem/data/ithrive/hertfordshire" />
     <property name="src.data.dir.includes" value="*.csv" />
   </source>
--->
+
   <source name="lew" type="por" >
     <property name="src.data.dir" location="/micklem/data/ithrive/lewisham" />
     <property name="src.data.dir.includes" value="*.csv" />
@@ -71,12 +70,10 @@
     <property name="src.data.dir.includes" value="*.csv" />
   </source>
 
-<!-- FAILS
   <source name="sun" type="por" >
     <property name="src.data.dir" location="/micklem/data/ithrive/sunderland" />
     <property name="src.data.dir.includes" value="*.csv" />
   </source>
--->
 
   <source name="wal" type="por" >
     <property name="src.data.dir" location="/micklem/data/ithrive/waltham" />

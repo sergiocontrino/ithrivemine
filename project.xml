@@ -2,15 +2,55 @@
   <property name="target.model" value="genomic"/>
   <property name="common.os.prefix" value="common"/>
   <sources>
-<!--
+
+  <source name="bex" type="por" >
+    <property name="src.data.dir" location="/micklem/data/ithrive/bexley" />
+    <property name="src.data.dir.includes" value="*.csv" />
+  </source>
+
+  <source name="cam" type="nhs" >
+    <property name="src.data.dir" location="/micklem/data/ithrive/cambridge" />
+    <property name="src.data.dir.includes" value="*.csv" />
+  </source>
+
+  <source name="camden" type="por" >
+    <property name="src.data.dir" location="/micklem/data/ithrive/camden" />
+    <property name="src.data.dir.includes" value="*.csv" />
+  </source>
+
+<!-- TODO
+  <source name="her" type="por" >
+    <property name="src.data.dir" location="/micklem/data/ithrive/hertfordshire" />
+    <property name="src.data.dir.includes" value="*.csv" />
+  </source>
+-->
   <source name="lew" type="por" >
     <property name="src.data.dir" location="/micklem/data/ithrive/lewisham" />
     <property name="src.data.dir.includes" value="*.csv" />
   </source>
--->
+
+  <source name="lut" type="por" >
+    <property name="src.data.dir" location="/micklem/data/ithrive/luton" />
+    <property name="src.data.dir.includes" value="*.csv" />
+  </source>
 
   <source name="man" type="por" >
     <property name="src.data.dir" location="/micklem/data/ithrive/manchester" />
+    <property name="src.data.dir.includes" value="*.csv" />
+  </source>
+
+  <source name="nec" type="por" >
+    <property name="src.data.dir" location="/micklem/data/ithrive/necor" />
+    <property name="src.data.dir.includes" value="*.csv" />
+  </source>
+
+  <source name="nor" type="por" >
+    <property name="src.data.dir" location="/micklem/data/ithrive/norfolk" />
+    <property name="src.data.dir.includes" value="*.csv" />
+  </source>
+
+  <source name="por" type="por" >
+    <property name="src.data.dir" location="/micklem/data/ithrive/portsmouth" />
     <property name="src.data.dir.includes" value="*.csv" />
   </source>
 
@@ -20,18 +60,6 @@
     <property name="dataSourceName" value="NHS"/>
     <property name="dataSetTitle" value="Southampton"/>
   </source>
-
-  <source name="por" type="por" >
-    <property name="src.data.dir" location="/micklem/data/ithrive/portsmouth" />
-    <property name="src.data.dir.includes" value="*.csv" />
-  </source>
-
-<!--
-  <source name="sun" type="por" >
-    <property name="src.data.dir" location="/micklem/data/ithrive/sunderland" />
-    <property name="src.data.dir.includes" value="*.csv" />
-  </source>
--->
 
   <source name="sto" type="por" >
     <property name="src.data.dir" location="/micklem/data/ithrive/stockport" />
@@ -43,15 +71,12 @@
     <property name="src.data.dir.includes" value="*.csv" />
   </source>
 
-  <source name="nec" type="por" >
-    <property name="src.data.dir" location="/micklem/data/ithrive/necor" />
+<!-- FAILS
+  <source name="sun" type="por" >
+    <property name="src.data.dir" location="/micklem/data/ithrive/sunderland" />
     <property name="src.data.dir.includes" value="*.csv" />
   </source>
-
-  <source name="wor" type="por" >
-    <property name="src.data.dir" location="/micklem/data/ithrive/worcester" />
-    <property name="src.data.dir.includes" value="*.csv" />
-  </source>
+-->
 
   <source name="wal" type="por" >
     <property name="src.data.dir" location="/micklem/data/ithrive/waltham" />
@@ -63,31 +88,11 @@
     <property name="src.data.dir.includes" value="*.csv" />
   </source>
 
-  <source name="bex" type="por" >
-    <property name="src.data.dir" location="/micklem/data/ithrive/bexley" />
+  <source name="wor" type="por" >
+    <property name="src.data.dir" location="/micklem/data/ithrive/worcester" />
     <property name="src.data.dir.includes" value="*.csv" />
   </source>
 
-  <source name="lut" type="por" >
-    <property name="src.data.dir" location="/micklem/data/ithrive/luton" />
-    <property name="src.data.dir.includes" value="*.csv" />
-  </source>
-
-  <source name="nor" type="por" >
-    <property name="src.data.dir" location="/micklem/data/ithrive/norfolk" />
-    <property name="src.data.dir.includes" value="*.csv" />
-  </source>
-
-  <source name="camden" type="por" >
-    <property name="src.data.dir" location="/micklem/data/ithrive/camden" />
-    <property name="src.data.dir.includes" value="*.csv" />
-  </source>
-<!--
-  <source name="cam" type="nhs" >
-    <property name="src.data.dir" location="/micklem/data/ithrive/cambridge" />
-    <property name="src.data.dir.includes" value="*.csv" />
-  </source>
--->
   </sources>
 
   <post-processing>

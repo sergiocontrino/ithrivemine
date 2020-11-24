@@ -8,6 +8,11 @@
     <property name="src.data.dir.includes" value="*.csv" />
   </source>
 
+  <source name="bra" type="por" >
+    <property name="src.data.dir" location="/micklem/data/ithrive/bradford" />
+    <property name="src.data.dir.includes" value="*.csv" />
+  </source>
+
   <source name="cam" type="nhs" >
     <property name="src.data.dir" location="/micklem/data/ithrive/cambridge" />
     <property name="src.data.dir.includes" value="*.csv" />
